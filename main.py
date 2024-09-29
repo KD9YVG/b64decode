@@ -5,7 +5,7 @@ def decode_base64_file(input_file):
     with open(input_file, 'r') as file:
       encoded_data = file_read()
    
-    decoded_data = base64.b64decode(encoded_data).decode('utf-8)
+    decoded_data = base64.b64decode(encoded_data).decode('utf-8')
 
     print(decoded_data)
 
